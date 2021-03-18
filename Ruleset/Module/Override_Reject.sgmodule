@@ -1,0 +1,21 @@
+#!name=Reject
+#!desc=AdBlock/Anti-Tracking
+
+[Rule]
+RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_Carrier_ID.list,REJECT-DROP,notification-text="reject_Carrier_ID",notification-interval=10
+RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_rule_set.list,REJECT-DROP
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_domain_set.list,REJECT-DROP
+DOMAIN-SUFFIX,wwads.cn,REJECT-DROP
+
+# Alipay
+DOMAIN-SUFFIX,guide-acs.m.taobao.com,REJECT-DROP
+DOMAIN-SUFFIX,audid-api.taobao.com,REJECT-DROP
+DOMAIN-SUFFIX,loggw.alipay.com,REJECT-DROP
+DOMAIN-SUFFIX,umdc.aliapp.org,REJECT-DROP
+
+# Tencent 
+DOMAIN-SUFFIX,wxapp.tc.qq.com,REJECT-DROP
+DOMAIN-SUFFIX,beacon.qq.com,REJECT-DROP
+
+USER-AGENT,SpectrumAnalyzer*,REJECT-DROP
+USER-AGENT,ApptentiveConnect*,REJECT-DROP
