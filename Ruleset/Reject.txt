@@ -1,0 +1,49 @@
+DOMAIN-SUFFIX,sessions.bugsnag.com
+
+# Apple Analytics
+DOMAIN-SUFFIX,api.smoot.apple.cn
+DOMAIN-SUFFIX,api.smoot.apple.com
+DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com
+
+# Microsoft Analytics
+DOMAIN-SUFFIX,vortex.data.microsoft.com
+
+# Reject - Global URL
+AND,((PROCESS-NAME,PDF Expert), (NOT,((DOMAIN-SUFFIX,pdfexpert.com))))
+DOMAIN-SUFFIX,gate.hockeyapp.net
+DOMAIN-SUFFIX,api.amplitude.com
+DOMAIN-SUFFIX,devmate.com
+
+# Reject - Domestic URL
+DOMAIN-KEYWORD,zhihu-web-analytics
+DOMAIN-SUFFIX,ios.bugly.qq.com
+DOMAIN-SUFFIX,addata.jd.com
+DOMAIN-SUFFIX,igexin.com
+DOMAIN-SUFFIX,xdrig.com
+DOMAIN-SUFFIX,jddebug.com    
+
+# Umeng Analytics (YOU MENG)
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
+DOMAIN-SUFFIX,umsns.com
+
+# zhihu
+IP-CIDR,118.89.204.198/32,no-resolve
+DOMAIN-SUFFIX,appcloud2.in.zhihu.com
+DOMAIN-SUFFIX,mqtt.zhihu.com
+DOMAIN-SUFFIX,mqtt.web.zhihu.com
+DOMAIN-SUFFIX,sugar.zhihu.com
+USER-AGENT,AVOS*
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count|v\d\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|search\/(top|tab)|.*featured-comment-ad)
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription)
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner
+URL-REGEX,^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation
+
+# Tencent
+# URL-REGEX,https?://.+/.+/.+/snssvpdownload/SH/reserved/.+
+# URL-REGEX,https?://.+/.+/.+/snsdyvideodownload/.+
+DOMAIN-SUFFIX,btrace.qq.com
+DOMAIN-SUFFIX,wxsnsdy.wxs.qq.com
+

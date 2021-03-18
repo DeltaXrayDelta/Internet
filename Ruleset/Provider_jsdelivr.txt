@@ -1,0 +1,4 @@
+RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/IT@master/Internet/Ruleset/Apple.txt,Apple
+RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/IT@master/Internet/Ruleset/Reject.txt,REJECT-DROP
+RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/IT@master/Internet/Ruleset/Direct.txt,Domestic
+RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/IT@master/Internet/Ruleset/Proxy.txt,Proxy

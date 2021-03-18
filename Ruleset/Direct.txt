@@ -1,0 +1,17 @@
+# Domestic URL
+DOMAIN-SUFFIX,dji.com
+DOMAIN-SUFFIX,djicdn.com
+DOMAIN-SUFFIX,skypixel.com
+DOMAIN-SUFFIX,ip.istatmenus.app
+DOMAIN-KEYWORD,accuweather
+
+# GD Oil
+USER-AGENT,?ijygd_ios*
+USER-AGENT,CarLife*
+
+# JD
+USER-AGENT,jdapp*
+USER-AGENT,JD4iPhone*
+
+# Taobao
+USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98*

@@ -1,0 +1,18 @@
+# Carrier Phone ID Service
+#-> CMCC 
+DOMAIN-SUFFIX,cmpassport.com   
+
+#-> CHN-UNICOM     
+DOMAIN-SUFFIX,opencloud.wostore.cn      
+DOMAIN-SUFFIX,nishub1.10010.com   
+      
+#-> CHN-TELECOM
+DOMAIN-SUFFIX,open.e.189.cn             
+DOMAIN-SUFFIX,id6.me                    
+
+#-> https://docs.geetest.com/onelogin/deploy/server
+DOMAIN-SUFFIX,onepass.geetest.com       
+DOMAIN-SUFFIX,onelogin.geetest.com      
+
+#-> http://yuyan.114dev.com/document/develop/server
+DOMAIN-SUFFIX,yuyan.popadshop.com   

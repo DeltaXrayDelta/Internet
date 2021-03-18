@@ -1,0 +1,12 @@
+PROCESS-NAME,fdm,GlobalTV
+
+# Interactive Broker
+USER-AGENT,IBKR*,Proxy
+DOMAIN-SUFFIX,ibkr.com,Proxy
+DOMAIN-SUFFIX,interactivebrokers.com,Proxy
+DOMAIN-SUFFIX,ibllc.com,Proxy
+DOMAIN-SUFFIX,ibllc.com.cn,Proxy
+
+# Firefox
+DOMAIN-SUFFIX,firefox.com,Proxy
+DOMAIN-SUFFIX,mozilla.org,Proxy
