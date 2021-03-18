@@ -10,7 +10,7 @@ DOMAIN-SUFFIX,vortex.data.microsoft.com
 
 # Reject - Global URL
 AND,((PROCESS-NAME,PDF Expert), (NOT,((DOMAIN-SUFFIX,pdfexpert.com))))
-AND,((USER-AGENT,PDFExpert*), (OR, ((DOMAIN-SUFFIX,amplitude.com)), ((DOMAIN-SUFFIX,appsflyer.com))))
+AND,((USER-AGENT,PDFExpert*), (OR, ((DOMAIN-SUFFIX,amplitude.com), (DOMAIN-SUFFIX,appsflyer.com))))
 DOMAIN-SUFFIX,gate.hockeyapp.net
 DOMAIN-SUFFIX,api.amplitude.com
 DOMAIN-SUFFIX,devmate.com
