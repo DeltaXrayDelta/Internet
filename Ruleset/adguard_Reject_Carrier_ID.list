@@ -1,0 +1,14 @@
+# Carrier Phone ID Service
+#-> CMCC
+||cmpassport.com^
+#-> CHN-UNICOM
+||opencloud.wostore.cn^
+||nishub1.10010.com^
+#-> CHN-TELECOM
+||open.e.189.cn^
+||id6.me^
+#-> https://docs.geetest.com/onelogin/deploy/server
+||onepass.geetest.com^
+||onelogin.geetest.com^
+#-> http://yuyan.114dev.com/document/develop/server
+||yuyan.popadshop.com^
