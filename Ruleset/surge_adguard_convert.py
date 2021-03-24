@@ -18,6 +18,6 @@ for line in rule_set_raw:
         adguard_output.append(('\r\n'))
 
 
-with open(os.path.join(current_dir_path, str('adguard_' + target_filename)), 'w') as file:
+with open(os.path.join(str(current_dir_path + '/AdGuard'), str('adguard_' + target_filename)), 'w') as file:
     for line in adguard_output:
         file.write('%s\n' % line)
