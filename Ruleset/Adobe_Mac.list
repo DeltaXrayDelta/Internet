@@ -1,0 +1,7 @@
+PROCESS-NAME,Core Sync*
+PROCESS-NAME,Creative Cloud Helper*
+PROCESS-NAME,Adobe_CCXProcess*
+PROCESS-NAME,node*
+
+DOMAIN-SUFFIX,adobess.com
+DOMAIN-SUFFIX,adobe.io
