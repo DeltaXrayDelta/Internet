@@ -21,7 +21,8 @@ DOMAIN-SUFFIX,ios.bugly.qq.com
 DOMAIN-SUFFIX,addata.jd.com
 DOMAIN-SUFFIX,igexin.com
 DOMAIN-SUFFIX,xdrig.com
-DOMAIN-SUFFIX,jddebug.com    
+DOMAIN-SUFFIX,jddebug.com
+DOMAIN-SUFFIX,gz-data.com
 
 # Umeng Analytics (YOU MENG)
 DOMAIN-SUFFIX,umeng.com
