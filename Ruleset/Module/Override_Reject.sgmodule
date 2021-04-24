@@ -1,5 +1,7 @@
 #!name=Reject
 #!desc=AdBlock/Anti-Tracking
+# https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/Module/Override_Reject.sgmodule
+# https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Module/Override_Reject.sgmodule
 
 [Rule]
 # Ruleset
