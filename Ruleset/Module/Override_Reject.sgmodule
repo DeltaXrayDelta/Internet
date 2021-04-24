@@ -9,7 +9,7 @@ DOMAIN-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Re
 
 # Domestic
 DOMAIN-SUFFIX,wwads.cn,REJECT-DROP
-DOMAIN-SUFFIX,tags.tiqcdn.com,REJECT
+DOMAIN-SUFFIX,tags.tiqcdn.com,REJECT-DROP
 
 # Alipay
 DOMAIN-SUFFIX,guide-acs.m.taobao.com,REJECT-DROP
