@@ -1,3 +1,6 @@
+# https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/Direct_custom.list
+# https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Direct_custom.list
+
 # Domestic URL
 DOMAIN-SUFFIX,dji.com
 DOMAIN-SUFFIX,djicdn.com

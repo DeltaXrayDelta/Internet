@@ -1,4 +1,5 @@
-PROCESS-NAME,fdm
+# https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/Proxy_custom.list
+# https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Proxy_custom.list
 
 # Interactive Broker
 USER-AGENT,IBKR*

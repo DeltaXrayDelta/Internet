@@ -1,3 +1,5 @@
+# https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/Reject_custom.list
+# https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_custom.list
 DOMAIN-SUFFIX,sessions.bugsnag.com
 
 # Apple Analytics
