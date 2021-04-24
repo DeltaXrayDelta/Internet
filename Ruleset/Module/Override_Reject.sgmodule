@@ -2,10 +2,14 @@
 #!desc=AdBlock/Anti-Tracking
 
 [Rule]
+# Ruleset
 RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_Carrier_ID.list,REJECT-DROP,notification-text="reject_Carrier_ID",notification-interval=10
 RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_rule_set.list,REJECT-DROP
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_domain_set.list,REJECT-DROP
+
+# Domestic
 DOMAIN-SUFFIX,wwads.cn,REJECT-DROP
+DOMAIN-SUFFIX,tags.tiqcdn.com,REJECT
 
 # Alipay
 DOMAIN-SUFFIX,guide-acs.m.taobao.com,REJECT-DROP
@@ -17,5 +21,15 @@ DOMAIN-SUFFIX,umdc.aliapp.org,REJECT-DROP
 DOMAIN-SUFFIX,wxapp.tc.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,beacon.qq.com,REJECT-DROP
 
+# JD
+DOMAIN-SUFFIX,jddebug.com,REJECT-DROP
+
+# Facebook
+DOMAIN-SUFFIX,supersonicads.com,REJECT-DROP
+USER-AGENT,letsbecops*,REJECT-DROP
+USER-AGENT,FBiOSSDK*,REJECT-DROP
+DOMAIN-SUFFIX,ads.inmobi.com,REJECT-DROP
+
+# Other
 USER-AGENT,SpectrumAnalyzer*,REJECT-DROP
 USER-AGENT,ApptentiveConnect*,REJECT-DROP
