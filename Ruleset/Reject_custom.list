@@ -16,6 +16,7 @@ DOMAIN-SUFFIX,devmate.com
 
 # Microsoft Analytics
 DOMAIN-SUFFIX,vortex.data.microsoft.com
+DOMAIN-SUFFIX,gate.hockeyapp.net
 
 # Facebook
 DOMAIN-SUFFIX,supersonicads.com
