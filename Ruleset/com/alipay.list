@@ -1,0 +1,12 @@
+# UA
+USER-AGENT,Alipay*
+USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98*
+
+
+# URL
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,alibabausercontent.com
+
