@@ -3,7 +3,9 @@
 
 # Carrier Phone ID Service
 # CMCC 
+# http://dev.10086.cn/docInside?contentId=10000004501297
 DOMAIN-SUFFIX,cmpassport.com   
+DOMAIN-SUFFIX,open.mmarket.com
 
 # CHN-UNICOM     
 DOMAIN-SUFFIX,opencloud.wostore.cn      

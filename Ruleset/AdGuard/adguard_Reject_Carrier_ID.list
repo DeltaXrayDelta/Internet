@@ -1,6 +1,10 @@
+# https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/Reject_Carrier_ID.list
+# https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_Carrier_ID.list
 # Carrier Phone ID Service
 # CMCC
+# http://dev.10086.cn/docInside?contentId=10000004501297
 ||cmpassport.com^
+||open.mmarket.com^
 # CHN-UNICOM
 ||opencloud.wostore.cn^
 ||nishub1.10010.com^
