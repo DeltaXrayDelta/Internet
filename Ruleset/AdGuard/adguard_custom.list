@@ -1,5 +1,5 @@
-# https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/adguard_custom.list
-# https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/adguard_custom.list
+# https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/AdGuard/adguard_custom.list
+# https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/AdGuard/adguard_custom.list
 # Apple
 ||api.smoot.apple.cn^
 ||api.smoot.apple.com^
