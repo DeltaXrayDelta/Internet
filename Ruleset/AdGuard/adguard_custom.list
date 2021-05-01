@@ -1,12 +1,16 @@
-! 数字联盟
+# Apple
+||api.smoot.apple.cn^
+||api.smoot.apple.com^
+||safebrowsing.urlsec.qq.com^
+# 数字联盟
 ||shuzilm.cn^
-! 微信公众号 页面复制上报
+# 微信公众号 页面复制上报
 ||mp.weixin.qq.com/mp/webcommreport*
-! 智能电视第三方数据上报
+# 智能电视第三方数据上报
 ||gz-data.com^
 ||gozendata.com^
 ||gzads.com^
 ||xelements.cn^
 ||ad-survey.com^
-! Sony
+# Sony
 ||ndmdhs.com^
