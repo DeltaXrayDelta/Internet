@@ -45,20 +45,24 @@ DOMAIN-SUFFIX,wxsnsdy.wxs.qq.com
 # URL-REGEX,https?://.+/.+/.+/snsdyvideodownload/.+
 
 # Alipay
-DOMAIN-SUFFIX,guide-acs.m.taobao.com
-DOMAIN-SUFFIX,audid-api.taobao.com
 DOMAIN-SUFFIX,loggw.alipay.com
 DOMAIN-SUFFIX,umdc.aliapp.org
+DOMAIN-SUFFIX,guide-acs.m.taobao.com
+DOMAIN-SUFFIX,audid-api.taobao.com
+DOMAIN-SUFFIX,ut.taobao.com
 
 # JD
 DOMAIN-SUFFIX,jddebug.com
-DOMAIN-SUFFIX,jddebug.com
 DOMAIN-SUFFIX,addata.jd.com
+DOMAIN-SUFFIX,blackhole.m.jd.com
 
 # Umeng Analytics (YOU MENG)
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umengcloud.com
 DOMAIN-SUFFIX,umsns.com
+
+#XIAOMI
+DOMAIN-SUFFIX,app.chat.xiaomi.net,REJECT-DROP
 
 # Zhihu
 USER-AGENT,AVOS*
