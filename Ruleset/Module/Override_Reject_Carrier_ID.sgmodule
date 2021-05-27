@@ -1,0 +1,7 @@
+#!name=Reject Carrier ID
+#!desc=Anti Carrier ID
+# https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/Module/Override_Reject_Carrier_ID.sgmodule
+# https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Module/Override_Reject_Carrier_ID.sgmodule
+
+[Rule]
+RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_Carrier_ID.list,REJECT-DROP,notification-text="reject_Carrier_ID",notification-interval=10

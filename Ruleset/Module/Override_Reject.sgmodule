@@ -6,10 +6,5 @@
 [Rule]
 # Ruleset
 RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_custom.list,REJECT-DROP
-RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_Carrier_ID.list,REJECT-DROP,notification-text="reject_Carrier_ID",notification-interval=10
 RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_rule_set.list,REJECT-DROP
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_domain_set.list,REJECT-DROP
-
-# iOS App
-USER-AGENT,SpectrumAnalyzer*,REJECT-DROP
-USER-AGENT,ApptentiveConnect*,REJECT-DROP
