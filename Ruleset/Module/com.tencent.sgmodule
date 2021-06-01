@@ -1,0 +1,10 @@
+#!name=com.Tencent
+#!desc=WeChat
+#!system=ios
+# https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/Module/com.tencent.sgmodule
+# https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Module/com.tencent.sgmodule
+
+
+
+[Rule]
+RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/com/tencent.list,REJECT-DROP
