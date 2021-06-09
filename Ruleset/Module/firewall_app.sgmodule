@@ -1,0 +1,15 @@
+#!name=Firewall App
+#!desc=Firewall rule by app
+#!system=ios
+
+[Script]
+firewall_App = type=cron,cronexp="0 0 1 1 *",script-path=https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Script/firewall_App.js
+firewall_Rule = type=rule,script-path=https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Script/firewall_Rule.js
+
+[Rule]
+AND,((RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/com/tencent.list), (SCRIPT,firewall_Rule)),REJECT-DROP,notification-text="Blocked: com.tencent",notification-interval=10
+
+# Script Testing
+# AND,((DOMAIN-SUFFIX,test.com), (SCRIPT,firewall_Rule)),REJECT-DROP,notification-text="firewall=1",notification-interval=1
+# AND,((DOMAIN-SUFFIX,test.com), (NOT,((SCRIPT,firewall_Rule)))),REJECT-DROP,notification-text="firewall=0",notification-interval=1
+# DOMAIN-SUFFIX,test.com,REJECT-DROP
