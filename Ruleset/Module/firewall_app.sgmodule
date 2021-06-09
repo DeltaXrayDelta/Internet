@@ -2,6 +2,12 @@
 #!desc=Firewall rule by app
 #!system=ios
 
+# https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/Module/firewall_app.sgmodule
+# https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Module/firewall_app.sgmodule
+
+# Usage: Shortcut - Script Name = "firewall_App"
+# Parameter = {("" = Allow), ("1" = Reject)}
+
 [Script]
 firewall_App = type=cron,cronexp="0 0 1 1 *",script-path=https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Script/firewall_App.js
 firewall_Rule = type=rule,script-path=https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Script/firewall_Rule.js
