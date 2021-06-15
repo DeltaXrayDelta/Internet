@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,sessions.bugsnag.com
 # Apple Analytics
 DOMAIN-SUFFIX,api.smoot.apple.cn
 DOMAIN-SUFFIX,api.smoot.apple.com
+DOMAIN-SUFFIX,weather-analytics-events.apple.com
 DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com
 
 # Reject - Global URL
