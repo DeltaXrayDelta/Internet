@@ -1,13 +1,6 @@
 # https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/Proxy_custom.list
 # https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Proxy_custom.list
 
-# Interactive Broker
-USER-AGENT,IBKR*
-DOMAIN-SUFFIX,ibkr.com
-DOMAIN-SUFFIX,interactivebrokers.com
-DOMAIN-SUFFIX,ibllc.com
-DOMAIN-SUFFIX,ibllc.com.cn
-
 # Firefox
 DOMAIN-SUFFIX,firefox.com
 DOMAIN-SUFFIX,mozilla.org
