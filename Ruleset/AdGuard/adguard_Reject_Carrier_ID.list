@@ -1,5 +1,5 @@
-# https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/AdGuard/adguard_Reject_Carrier_ID.list
-# https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/AdGuard/adguard_Reject_Carrier_ID.list
+# https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/Reject_Carrier_ID.list
+# https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_Carrier_ID.list
 # Carrier Phone ID Service
 # CMCC
 # http://dev.10086.cn/docInside?contentId=10000004501297
@@ -16,3 +16,6 @@
 ||onelogin.geetest.com^
 # http://yuyan.114dev.com/document/develop/server
 ||yuyan.popadshop.com^
+# https://docs.jiguang.cn/jverification/server/rest_api/admin_api/
+||verification.jpush.cn^
+||jiguang.cn^

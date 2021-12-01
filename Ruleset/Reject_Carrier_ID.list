@@ -21,3 +21,7 @@ DOMAIN-SUFFIX,onelogin.geetest.com
 
 # http://yuyan.114dev.com/document/develop/server
 DOMAIN-SUFFIX,yuyan.popadshop.com   
+
+# https://docs.jiguang.cn/jverification/server/rest_api/admin_api/
+DOMAIN-SUFFIX,verification.jpush.cn
+DOMAIN-SUFFIX,jiguang.cn
