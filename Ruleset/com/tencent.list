@@ -170,7 +170,8 @@ IP-CIDR,203.205.232.0/24,no-resolve
 IP-CIDR,203.205.235.0/24,no-resolve
 IP-CIDR,203.205.253.0/24,no-resolve
 IP-CIDR,203.205.254.0/24,no-resolve
-IP-CIDR,203.209.245.0/24,no-resolve
+# Alipay conflict
+# IP-CIDR,203.209.245.0/24,no-resolve
 IP-CIDR,211.95.137.0/24,no-resolve
 IP-CIDR,211.95.138.0/24,no-resolve
 IP-CIDR,218.68.90.0/24,no-resolve
