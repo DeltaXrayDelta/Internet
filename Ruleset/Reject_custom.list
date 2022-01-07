@@ -14,6 +14,10 @@ AND,((USER-AGENT,PDFExpert*), (OR, ((DOMAIN-SUFFIX,amplitude.com), (DOMAIN-SUFFI
 DOMAIN-SUFFIX,gate.hockeyapp.net
 DOMAIN-SUFFIX,api.amplitude.com
 DOMAIN-SUFFIX,devmate.com
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,in.appcenter.ms
+DOMAIN,googleads.g.doubleclick.net
+DOMAIN,firebaselogging-pa.googleapis.com
 
 # Microsoft Analytics
 DOMAIN-SUFFIX,vortex.data.microsoft.com
