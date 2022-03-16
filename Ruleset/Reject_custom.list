@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,in.appcenter.ms
 DOMAIN,googleads.g.doubleclick.net
 DOMAIN,firebaselogging-pa.googleapis.com
+DOMAIN,firebaseinstallations.googleapis.com
 
 # Microsoft Analytics
 DOMAIN-SUFFIX,vortex.data.microsoft.com

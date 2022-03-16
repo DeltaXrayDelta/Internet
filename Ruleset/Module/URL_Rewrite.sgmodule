@@ -727,7 +727,9 @@ http?:\/\/123.59.30.10\/adv\/advInfos - reject
 ^https?:\/\/app.bilibili.com\/x\/v2\/search\/recommend - reject
 
 # > 一点万象
+# https://app.mixcapp.com/mixc/api/v1/popup
 ^https?:\/\/app.mixcapp.com\/mixc\/api\/v2\/ad - reject
+^https?:\/\/app.mixcapp.com\/mixc\/api\/v1\/popup - reject
 
 # > WiFi共享大师
 ^https?:\/\/nochange.ggsafe.com\/ad\/ - reject
