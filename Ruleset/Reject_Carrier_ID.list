@@ -8,8 +8,13 @@ DOMAIN-SUFFIX,cmpassport.com
 DOMAIN-SUFFIX,open.mmarket.com
 
 # CHN-UNICOM     
-DOMAIN-SUFFIX,opencloud.wostore.cn      
-DOMAIN-SUFFIX,nishub1.10010.com   
+DOMAIN-SUFFIX,opencloud.wostore.cn
+DOMAIN-SUFFIX,nishub1.10010.com
+DOMAIN-SUFFIX,nisportal.10010.com
+DOMAIN-SUFFIX,hmrz.wo.cn
+DOMAIN-SUFFIX,mdn.open.wo.cn
+DOMAIN-SUFFIX,id.mail.wo.cn
+DOMAIN-SUFFIX,auth.wosms.cn 
       
 # CHN-TELECOM
 DOMAIN-SUFFIX,open.e.189.cn             
