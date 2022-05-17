@@ -55,7 +55,7 @@ DOMAIN-SUFFIX,loggw.alipay.com
 DOMAIN-SUFFIX,umdc.aliapp.org
 DOMAIN-SUFFIX,guide-acs.m.taobao.com
 DOMAIN-SUFFIX,audid-api.taobao.com
-DOMAIN-SUFFIX,ut.taobao.com
+# DOMAIN-SUFFIX,ut.taobao.com
 
 # JD
 DOMAIN-SUFFIX,jddebug.com
