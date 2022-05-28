@@ -1,5 +1,5 @@
-# https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/Proxy_custom.list
-# https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Proxy_custom.list
+# https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/list/Proxy_custom.list
+# https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/list/Proxy_custom.list
 
 # Firefox
 DOMAIN-SUFFIX,firefox.com

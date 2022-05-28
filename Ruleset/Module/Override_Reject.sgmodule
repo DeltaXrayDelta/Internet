@@ -5,6 +5,6 @@
 
 [Rule]
 # Ruleset
-RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_custom.list,REJECT-DROP
-RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_rule_set.list,REJECT-DROP
-DOMAIN-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_domain_set.list,REJECT-DROP
+RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/list/Reject_custom.list,REJECT-DROP
+RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/list/Reject_rule_set.list,REJECT-DROP
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/list/Reject_domain_set.list,REJECT-DROP

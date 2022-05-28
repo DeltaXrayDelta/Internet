@@ -4,4 +4,4 @@
 # https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Module/Override_Reject_Carrier_ID.sgmodule
 
 [Rule]
-RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/Reject_Carrier_ID.list,REJECT-DROP,notification-text="reject_Carrier_ID",notification-interval=10
+RULE-SET,https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/list/Reject_Carrier_ID.list,REJECT-DROP,notification-text="reject_Carrier_ID",notification-interval=10
