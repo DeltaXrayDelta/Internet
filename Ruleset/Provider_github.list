@@ -1,4 +1,4 @@
-RULE-SET,https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/Apple.list,Apple
-RULE-SET,https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/Reject_custom.list,REJECT-DROP
-RULE-SET,https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/Direct_custom.list,Domestic
-RULE-SET,https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/Proxy_custom.list,Proxy
+RULE-SET,https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/list/Apple.list,Apple
+RULE-SET,https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/list/Reject_custom.list,REJECT-DROP
+RULE-SET,https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/list/Direct_custom.list,Domestic
+RULE-SET,https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/list/Proxy_custom.list,Proxy
