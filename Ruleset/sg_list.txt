@@ -1,7 +1,7 @@
-/Provider_github.list
-/Provider_jsdelivr.list
 /AdGuard/adguard_Reject_Carrier_ID.list
 /AdGuard/adguard_custom.list
+/Provider/Provider_github.list
+/Provider/Provider_jsdelivr.list
 /list/Reject_custom.list
 /list/Apple.list
 /list/Reject_Carrier_ID.list
