@@ -13,6 +13,7 @@
 /IP_list/ip_Cisco.list
 /IP_list/ip_Apple.list
 /com/alipay.list
+/com/microsoft.list
 /com/tencent.list
 /com/1password.list
 /Module/Override_Reject.sgmodule
