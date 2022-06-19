@@ -1,0 +1,8 @@
+# https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/com/garmin.list
+# https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/com/garmin.list
+
+USER-AGENT,ConnectMobil*
+USER-AGENT,com.garmin.connect*
+DOMAIN-SUFFIX,garmin.com
+DOMAIN-SUFFIX,garmin.cn
+DOMAIN-SUFFIX,garmincdn.com
