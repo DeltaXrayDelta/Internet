@@ -75,5 +75,5 @@ DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umengcloud.com
 DOMAIN-SUFFIX,umsns.com
 
-#XIAOMI
-DOMAIN-SUFFIX,app.chat.xiaomi.net
+# XIAOMI
+DOMAIN-SUFFIX,app.chat.xiaomi.net,REJECT-DROP
