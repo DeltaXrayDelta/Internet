@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,api.amplitude.com
 DOMAIN-SUFFIX,devmate.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,telemetry.tradingview.com
+DOMAIN-SUFFIX,iwaxx.com
 
 # Google
 DOMAIN,googleads.g.doubleclick.net
