@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,api.smoot.apple.cn
 DOMAIN-SUFFIX,api.smoot.apple.com
 DOMAIN-SUFFIX,weather-analytics-events.apple.com
 DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com
+DOMAIN,metrics.icloud.com
 
 # Reject - Global URL
 AND,((PROCESS-NAME,PDF Expert), (NOT,((DOMAIN-SUFFIX,pdfexpert.com))))
