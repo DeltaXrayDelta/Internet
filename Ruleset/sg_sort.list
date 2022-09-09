@@ -1,55 +1,54 @@
 # https://raw.githubusercontent.com/DeltaXrayDelta/Internet/master/Ruleset/list/Reject_custom.list
 # https://cdn.jsdelivr.net/gh/DeltaXrayDelta/Internet@master/Ruleset/list/Reject_custom.list
-DOMAIN-SUFFIX,sessions.bugsnag.com
-
-# Apple
+#-> Apple
 DOMAIN-SUFFIX,api.smoot.apple.cn
 DOMAIN-SUFFIX,api.smoot.apple.com
 DOMAIN-SUFFIX,weather-analytics-events.apple.com
 DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com
 
-# Reject - Global URL
+#-> Reject - Global URL
 AND,((PROCESS-NAME,PDF Expert), (NOT,((DOMAIN-SUFFIX,pdfexpert.com))))
 AND,((USER-AGENT,PDFExpert*), (OR, ((DOMAIN-SUFFIX,amplitude.com), (DOMAIN-SUFFIX,appsflyer.com))))
 
-# Tracker
+#-> Tracker
 DOMAIN-SUFFIX,gate.hockeyapp.net
 DOMAIN-SUFFIX,api.amplitude.com
 DOMAIN-SUFFIX,devmate.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,telemetry.tradingview.com
 DOMAIN-SUFFIX,iwaxx.com
+DOMAIN-SUFFIX,sessions.bugsnag.com
 
-# Google
+#-> Google
 DOMAIN,googleads.g.doubleclick.net
 DOMAIN,firebaselogging-pa.googleapis.com
 DOMAIN,firebaseinstallations.googleapis.com
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,googletagmanager.com
 
-# Microsoft
+#-> Microsoft
 DOMAIN-SUFFIX,in.appcenter.ms
 DOMAIN-SUFFIX,vortex.data.microsoft.com
 DOMAIN-SUFFIX,gate.hockeyapp.net
 
-# Facebook
+#-> Facebook
 DOMAIN-SUFFIX,supersonicads.com
 USER-AGENT,letsbecops*
 USER-AGENT,FBiOSSDK*
 DOMAIN-SUFFIX,ads.inmobi.com
 
-# Reject - Domestic URL
+#-> Reject - Domestic URL
 DOMAIN-SUFFIX,igexin.com
 DOMAIN-SUFFIX,xdrig.com
 DOMAIN-SUFFIX,wwads.cn
 DOMAIN-SUFFIX,tags.tiqcdn.com
 
-# Gou Zheng
+#-> Gou Zheng
 DOMAIN-SUFFIX,gz-data.com
 DOMAIN-SUFFIX,gozendata.com
 DOMAIN-SUFFIX,gzads.com
 
-# Tencent 
+#-> Tencent 
 DOMAIN-SUFFIX,ios.bugly.qq.com
 DOMAIN-SUFFIX,wxapp.tc.qq.com
 DOMAIN-SUFFIX,beacon.qq.com
@@ -58,22 +57,22 @@ DOMAIN-SUFFIX,wxsnsdy.wxs.qq.com
 # URL-REGEX,https?://.+/.+/.+/snssvpdownload/SH/reserved/.+
 # URL-REGEX,https?://.+/.+/.+/snsdyvideodownload/.+
 
-# Alipay
+#-> Alipay
 DOMAIN-SUFFIX,loggw.alipay.com
 DOMAIN-SUFFIX,umdc.aliapp.org
 DOMAIN-SUFFIX,guide-acs.m.taobao.com
 DOMAIN-SUFFIX,audid-api.taobao.com
 # DOMAIN-SUFFIX,ut.taobao.com
 
-# JD
+#-> JD
 DOMAIN-SUFFIX,jddebug.com
 DOMAIN-SUFFIX,addata.jd.com
 DOMAIN-SUFFIX,blackhole.m.jd.com
 
-# Umeng Analytics (YOU MENG)
+#-> Umeng Analytics (YOU MENG)
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umengcloud.com
 DOMAIN-SUFFIX,umsns.com
 
-# XIAOMI
+#-> XIAOMI
 DOMAIN-SUFFIX,app.chat.xiaomi.net,REJECT-DROP
